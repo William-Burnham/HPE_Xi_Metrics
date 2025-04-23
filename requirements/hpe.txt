@@ -1,0 +1,7 @@
+ultralytics
+mediapipe
+openmim
+mmengine
+mmcv==2.1.0
+mmdet==3.2.0
+mmpose==1.2.0

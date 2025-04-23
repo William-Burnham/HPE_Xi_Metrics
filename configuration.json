@@ -1,0 +1,29 @@
+{
+    "run_on_cpu": "false",
+
+    "data_root": "data",
+    "dataset_name": "fit3d_train",
+    "subset": "train",
+
+    "frame_w": 900,
+    "frame_h": 900,
+    "fps": 50,
+
+    "do_compute_gt": false,
+    "gt_dir": "data/fit3d_train",
+
+    "do_compute_predictions": false,
+    "predictions_output_folder": "output/fit3d_train/predictions",
+    "do_save_overlay": false,
+    "do_plot_confidence": false,
+    "overlay_output_folder": "output/fit3d_train/overlay",
+
+    "do_compute_metrics": true,
+    "do_ankles": false,
+    "metrics_output_folder": "output/fit3d_train/metrics",
+
+    "mediapipe_pose": true,
+    "movenet_lightning": true,
+    "movenet_thunder": true,
+    "yolopose": true
+}

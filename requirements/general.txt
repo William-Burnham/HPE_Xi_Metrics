@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+imageio
+opencv-python
+IPython
+ninja
+cython
+setuptools
+wheel
+alive-progress
+dtaidistance
