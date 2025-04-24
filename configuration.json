@@ -20,6 +20,7 @@
 
     "do_compute_metrics": true,
     "do_ankles": false,
+    "do_transverse_angles": true,
     "metrics_output_folder": "output/fit3d_train/metrics",
 
     "mediapipe_pose": true,

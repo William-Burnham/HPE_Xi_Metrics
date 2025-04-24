@@ -217,6 +217,9 @@ def compare_to_gt(model, keypoints, angles, ang_vels, ang_accs, file_path, subje
         if config['do_ankles'] == False and theta in ['0','1']:
             continue
 
+        if config['do_transverse_angles'] == False and theta in ['4', '5', '10', '11']:
+            continue
+
         # If no angles were predicted, there are also no vels or accs. Skip
         if angles[theta] == None:
             continue

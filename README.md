@@ -136,6 +136,7 @@ This code has multiple layers of functionality that can be tuned via the `config
 
     "do_compute_metrics"        # (Boolean) Compute metrics from the predictions of selected models (ensure predictions are computed first)
     "do_ankles"                 # (Boolean) NOT RECOMMENDED - MEDIAPIPE EXCLUSIVE: Include ankles in metric calculations
+    "do_transverse_angles"      # (Boolean) Include internal hip and external shoulder in metric calculations
     "metrics_output_folder"     # Directory for metrics to be saved to
 
     "mediapipe_pose"            # (Boolean) Select MediaPipe Pose model
